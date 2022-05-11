@@ -1,5 +1,5 @@
-SQLServer日期格式转换
-常用：
+## SQLServer日期格式转换
+### 常用：
 Select CONVERT(varchar(100), GETDATE(), 24): 10:57:47
 
 Select CONVERT(varchar(100), GETDATE(), 108): 10:57:49
@@ -12,7 +12,7 @@ select CONVERT(varchar(12) , getdate(), 112 ) : 20040912
 
 Select CONVERT(varchar(100), GETDATE(), 8): 10:57:46
 
--------全部------
+### 全部：
 Select CONVERT(varchar(100), GETDATE(), 0): 05 16 2006 10:57AM
 
 Select CONVERT(varchar(100), GETDATE(), 1): 05/16/06
